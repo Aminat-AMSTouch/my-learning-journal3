@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    background-color: rgb(14, 14, 61);
+    /* overflow: hidden; */
+}
+.ludo{
+    background-color: white;
+    width: 750px;
+    height: 750px;
+    display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+}
+.blue, .red, .yellow, .green{
+    width: 300px;
+    height: 300px;
+     background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.blue, .backblue{
+    background-color: royalblue;
+}
+.red, .backred{
+    background-color: red;
+}
+.yellow, .backyellow {
+    background-color: yellow;
+}
+.green, .backgreen{
+    background-color: green;
+}
+.next{
+    background-color: white;
+    width: 210px;
+    height: 210px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+
+.inner{
+    /* background-color: pink; */
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+}
+
+
+.squ{
+    width: 48px;
+    height: 48px;
+    border: 1px solid black;
+}
+.cubess{
+    display: flex;
+}
+.row{
+    width: 750px;
+    height: 149px;
+    background-color: white;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+.rowbox{
+    display: flex;
+    /* flex-direction: row; */
+}
+.rowsqu{
+    width: 48px;
+    height: 48px;
+    border: 1px solid black;
+    
+}
+.smalred{
+    background-color: red;
+}
+.smalyel{
+    background-color: yellow;
+}
+.smalblu{
+    background-color: royalblue;
+}
+.smalgreen{
+    background-color: green;
+}
+.smalredico{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+.smalyelico{
+    text-align: center;
+    font-size: 30px;
+    color: yellow;
+}
+.smalbluico{
+    text-align: center;
+    font-size: 30px;
+    color: royalblue;
+}
+.smalgreico{
+    text-align: center;
+    font-size: 30px;
+    color: green;
+}
+.star{
+    text-align: center;
+    font-size: 30px;
+}
+.blak{background-color: black;}
+
+
+.row1{
+    display: flex;
+}
+.crown{
+    font-size: 150px;
+    color: yellow;
+    align-items: center;
+    position: absolute;
+}
