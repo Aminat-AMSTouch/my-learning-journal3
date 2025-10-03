@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            display: flex; 
+            justify-content: center; 
+            align-items: center;
+            background: linear-gradient(to bottom, green, rgb(108, 236, 108));
+            height: 100vh;
+        }
+        .container{
+            width: 400px;
+            height: vh;
+            padding: 0 20px;
+            padding-bottom: 10px;
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.815);
+        }
+        .block{
+            display: block;
+            width: 400px;
+            height: 20px;
+            
+        }
+        input .block{
+            width: 300px;
+            height: 20px;
+        }
+        .reset{
+            background-color: rgb(53, 53, 20);
+            border: none;
+            border-radius: 4px;
+            width: 70px;
+            height: 30px;
+             color: white;
+        }
+        .submit{
+            background-color: green;
+            border: none;
+            border-radius: 4px;
+            width: 70px;
+            height: 30px;
+            color: white;
+            font-size: 16px;
+        }
+        button:hover{
+            background-color: white;
+            color: green;
+        }
+    </style>
+</head>
+<body >
+
+    <div class="container">
+        <form action="form2.html" method="get">
+            <h2>User Registration</h2>
+            <div>
+                <label for="name">Name</label>
+                <input class="block" type="text" name="name" id="name" required>
+            </div> <br>
+            <div>
+                <label for="email">Email</label>
+                <input class="block" type="email" name="email" id="email" required>
+            </div> <br>
+            <div>
+                <label for="age">Age</label>
+                <input class="block" type="number" name="age" id="age" min="14" max="35" step="1" required>
+            </div><br>
+            <div>
+                <label for="date">Date</label>
+                <input type="date" name="date" id="name">
+            </div><br>
+            <div style="display: grid; grid-template-columns: 1fr 1fr;">
+                <div>
+                    Favourite mode
+                <div>
+                    <label for="virtual">Virtual</label>
+                    <input type="radio" name="mode" id="virtual">
+                
+                     <label for="physical">Physical</label>
+                    <input type="radio" name="mode" id="physical">
+                </div>
+                </div>
+
+
+                <div>
+                Gender
+                <div>
+                    <label for="male">Male</label>
+                    <input type="radio" name="Gender" id="male" value="Male">
+                    <label for="female">Female</label>
+                    <input type="radio" name="Gender" id="female" value="Female">
+
+                </div>
+            </div>
+            </div>
+            
+            <div><br>
+                <label for="experience">Experience</label>
+                <select class="block" name="experience" id=" experience">
+                    <option value="Select your category" disabled>Select your category</option>
+                    <option value="beginner">beginner</option>
+                    <option value="Intermidiate">Intermidiate</option>
+                    <option value="Expert">Expert</option>
+                    <option value="I don't know">I don't know</option>
+                </select>
+            </div><br>
+
+            <div>
+                <label for="bio">Bio</label>
+                <textarea class="block"  name="bio" id="bio"></textarea>
+            </div><br>
+            <div>
+                <label for="file">File</label>
+                <input type="file" name="file" id="file">
+            </div><br>
+
+            <div>
+                <label for="phone">Phone Number</label>
+                <input class="block" type="tel" name="phone" id="phone" placeholder="+234-000-000-0000" >
+            </div><br>
+            <div>
+                <label for="url">Social URL</label>
+                <input type="url" name="url" id="url">
+            </div><br>
+
+            <div>
+                <button class="reset" type="reset" >Reset</button>
+                <button class="submit" type="submit" >Submit</button>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
