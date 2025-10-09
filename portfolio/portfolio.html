@@ -29,6 +29,9 @@
         height: 90vh;
         place-items: center;
     }
+    .sect p{
+        font-size: 23px;
+    }
 
     #hero{
         display: flex;
@@ -47,7 +50,7 @@
     button{
         width: 210px;
         height: 45px;
-        font-size: 23px;
+        font-size: 18px;
         border: none;
         border-radius: 6px;
     }
@@ -61,14 +64,29 @@
     }
     .hero h1{
         font-size: 40px;
-    }.hero p{
-        font-size: 23px;
     }
-    p{
-        font-size: 23px;
+
+    .project{
+        padding: 70px;
     }
-    .hero ul{
-        font-size: 23px;
+    .project th{
+        font-size: 20px;
+    }
+    .skill{
+        padding: 70px;
+        padding-top: 0;
+    }
+    .contact{
+        padding: 70px;
+    }
+    .contact input{
+        width: 100%;
+        height: 20px;
+    }
+
+    footer a{
+        text-decoration: none;
+        color: rgb(175, 173, 173);
     }
 </style>
 <body >
@@ -125,9 +143,96 @@
 
 
 
-    <div>
+    <div class="project">
         <h1>Projects</h1>
+        <table border="1" cellspacing="0">
+            <tr>
+                <th>Project Name</th>
+                <th>Description</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>
+                    <p>ludo Game</p>
+                    <img src="pictures/2025-10-09 (1).png" width="50%" alt="">
+                </td>
+                <td style="width: px;">A simple layout o thr classic Ludo board game, designed using pure HTML(Table). It showcases a clean structure with visually divided player zones, safe areas and home pats all without using CSS or JavaScript. This project demonstrates an understanding of semantics HTML and how to structure cmplex game boards using only markup.</td>
+                <td><a href="file:///C:/Users/AMINAT/Desktop/Noorlabs/ludo-game/ludotable.html">Ludo game</a></td>
+                
+            </tr>
+            <tr>
+                <td> 
+                    <p>ponmo website</p>
+                    <img src="pictures/2025-10-09.png" width="50%" alt="">
+                </td>
+                <td>PonmoHub: A vibrnt and user-friendly website showcasing thr rich world of Nigerian ponmo (Cowhide) cuisine. Built with HTML and CSS. It feture mouth-watering images, recipes and cultural insights, providing an immersive experience for food enthusiasts and Nigerians abroad. The sites clean design and inti]uitive navigation make it easy to explre and discover new ways to enjoy ponmo.</td>
+                <td><a href="C:\Users\AMINAT\Desktop\IT Project\assignmentprojects\ponmo.html">Ponmo Website</a></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Medilab Website</p>
+                <img src="pictures/2025-10-09 (2).png" width="50%" alt="">
+                </td>
+                <td>A sleek modern website designed to provide a seamless experience for patients and medical professionals alike. With a focus of usr-friendly navigation and clear information achitecture. Medilab's website offer easy acess to services, team profile and contact information. The design priotize trust and credibility, faturing prominent calls-to-actin and intuitive layout.</td>
+                <td><a href="medilad.html">Medilab Website</a></td>
+            </tr>
+        </table>
     </div>
+
+    <div class="skill">
+        <h1>Frontend Development</h1>
+        <ul>
+            <li>HTML</li>
+            <li>Cascading styling Sheet, CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </div>
+
+    <div class="contact">
+        <h1>CONTACT</h1>
+        <form action="">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                <div>
+                    <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                </div>
+            </div><br>
+
+            <div>
+                <label for="service">Choose service</label>
+                <select name="service" id="service">
+                <option value="Frontend Development">Frontend Development</option>
+                <option value="hair Styling">hair Styling</option>
+                <option value="Graphics design">Graphics design</option>
+                </select>
+            </div><br>
+           <div>
+             
+                <label for="textarea">Message</label>
+                <input type="textarea" name="textarea" id="textarea">
+
+           </div><br>
+
+            <button type="submit" style="background-color: red; color: white;">Submit</button>
+
+        </form>
+    </div>
+
+    
+            
+                <footer style="position: static; background-color: black;  gap: 50px;">
+                    <div style="display: flex; gap: 50px; padding-left: 70px;">
+                    <a href="salaudeenaminat1234@gmail.com">💌 salaudeenaminat1234@gmail.com</a>
+                    <a href="08136418508">08136418508</a>
+                    </div>
+                
+        </footer>
+
+        
     
     
 </body>
