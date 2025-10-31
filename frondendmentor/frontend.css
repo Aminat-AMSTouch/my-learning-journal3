@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.navlinks{
+    display: flex;
+    gap: 30px;
+}
+.navlinks ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.navlinks li{
+    font-size: 20px;
+    font-weight: 900;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-style: italic;
+}
+button{
+    /* width: 320px; */
+    /* height: 60px; */
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 25px;
+    font-weight: 700;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-style: italic;
+     
+}
+.btn1{
+    background-color: black;
+      color: white;
+}
+#sectionhero{
+ /* margin-top: 20px; */
+ padding: 40px;   
+ /* align-items: center; */
+ display: flex;
+ gap: 30px;
+ font-family: sans-serif;
+
+}
+.learn{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 700;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.one{
+    width: 70%;
+}
+.one span{
+    font-weight: 700;
+    color: rgb(62,84,163);
+}
+.one h1{
+    font-size: 70px;
+    color: rgb(62,84,163);
+    padding: 40px 0px;
+
+}
+.one p{
+    line-height: 1.5;
+    font-size: 25.5px;
+    padding-bottom: 40px;
+    color: rgb(115, 115, 115)
+;
+}
+.btn2{
+    background-color: red;
+    color: white;
+}
+.btn3{
+    color: black;
+    background-color: white;
+    box-shadow: inset;
+}
+.two img{
+    width: 100%;
+}
+
+
+.section2{
+    padding: 40px;
+    margin: 40px;
+    background-color: rgb(55,73,146);
+    /* height: 50px; */
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+.section2 h3{
+    font-size: 25px;
+}
+.section2 p{
+    font-size: 20px;
+}
+
+.section3{
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* gap: 60px; */
+    padding: 40px;
+    /* justify-content: space-between; */
+    font-family: sans-serif;
+}
+.soft{
+    display: flex;
+    justify-content: space-between;
+}
+.soft h3{
+    color: rgb(55,73,146);
+    font-weight: 900;
+    font-size: 21px;
+}
+.soft1{
+    display: flex;
+    padding-top: 20px;
+}
+.section3 .par{
+    font-size: 26px;
+    line-height: 1.5;
+}
+.soft1 p{
+    font-size: 20px;
+    color: rgb(115, 115, 115);
+}
+.soft1 img{
+    width: 50%;
+}.soft .iconimg{
+    width: 0%
+}
