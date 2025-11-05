@@ -143,3 +143,151 @@ button{
 }.soft .iconimg{
     width: 0%
 }
+
+.section4{
+    margin: 70px 40px;
+    /* display: grid; */
+     /* align-items: center; */
+     place-items: center;
+}
+.ctr{
+    display: flex;
+    /* justify-content: space-between; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    gap: 50px;
+}
+.img1{
+    padding: 30px 130px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 3px black;
+}
+#section5{
+    background-color: #f3f4f6;
+    padding: 70px 50px;
+    border-radius: 10px;
+}
+.section5{
+    display: flex;
+    font-family: sans-serif;
+    gap: 30px;
+}
+.choose{
+    background-color: rgb(62,84,163);
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+}
+.choose span{
+    background-color: white;
+    color: rgb(62,84,163);
+    padding: 10px 15px;
+     margin-right: 15px;
+    border-radius: 50%;
+}
+.choose p{
+    font-size: 22px;
+    line-height: 1.5;
+}
+.choose h3{
+    font-size: 25px;
+}
+.cod{
+    background-color: white;
+    box-shadow: 0.5px 0.5px 1px gray;
+    border-radius: 10px;
+    padding: 40px;
+}
+.cod h3{
+    font-size: 25px;
+}
+.cod span{
+     background-color: rgb(6,182,212);
+    color: white;
+    padding: 10px 15px;
+     border-radius: 50%;
+     margin-right: 15px;
+}
+
+
+#section6{
+    margin-top: 100px;
+    font-family: sans-serif;
+    padding: 0 50px;
+}
+/* .section6 {
+    align-items: center;
+    place-items: center;
+} */
+ .why{
+    align-items: center;
+    place-items: center;
+      margin-bottom: 40px;
+ }
+.section6 h1{
+    font-size: 50px;
+  
+}
+.move{
+    display: flex;
+    gap: 30px;
+}
+.doptex{
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+    line-height: 1.5;
+}
+.doptex p{
+    color: grey;
+}
+.doptex span{
+    font-weight: 500;
+    font-size: 33px;
+    color: black;
+}
+
+#section7{
+    margin-top: 100px;
+    padding: 40px;
+    font-family: sans-serif;
+    background-color: rgb(250,250,250);
+}
+.why h1{
+    font-size: 50px;
+}
+.why p{
+    font-size: 25px;
+    color: gray;
+    line-height: 1.5;
+}
+.why span{
+    font-size: 50px;
+    font-weight: 700;
+    background-color: rgb(62,84,163);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.mes{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+.mes1{
+    padding: 20px;
+    line-height: 1.5;
+    background-color: white;
+    /* border: 1px solid gray; */
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.432);
+    border-radius: 10px;
+}
+.mes1 h3{
+    font-size: 30px;
+    
+}
+.mes1 p{
+    font-size: 20px;
+    color: gray;
+}
