@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+nav{
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.firstnav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.nav-logo{
+    cursor: pointer;
+}
+.navlink{
+    cursor: pointer;
+}
+.navlink:hover{
+    color: rgb(0,98,65);
+}
+button{
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    transition: all 0.4s ease;
+
+}
+.btn-sign{
+    background-color: white;
+    color: black;
+}
+.btn-join{
+    background-color: black;
+    color: white;
+    border: 5px;
+}
+#undernav{
+    background-color: rgb(50,70,47);
+    padding: 40px 0;
+    align-items: center;
+    place-items: center;
+}
+.undernav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.undernavText{
+    color: white;
+    font-size: 22px;
+}
+.undernav button{
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 19px;
+}
+#protein{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* height: 100%; */
+}
+.protein-text{
+    background-color: rgb(95,70,51);
+    display: grid;
+    align-items: center;
+    place-items: center;
+    line-height: 1.5;
+    padding: 10px 70px;
+    color: white;
+}
+.protein-img{
+    display: grid;
+    align-items: center;
+    place-items: center;
+}
+.protein-text p{
+    font-size: 30px;
+}
+.protein-text h1{
+    font-size: 62px;
+
+}
+.pro{
+    align-items: center;
+    place-items: center;
+}
+.pro button{
+    display: grid;
+    align-items: center;
+    place-items: center;
+    border: none;
+    font-size: 20px;
+}
+#protein-collection{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.protein-collection-text{
+    background-color: rgb(95,70,51);
+    display: grid;
+    align-items: center;
+    place-items: center;
+    line-height: 1.5;
+    padding: 0 0px;
+    color: white;
+}
+.protein-collection-text p{
+    font-size: 24px;
+}
+#protein-collection2{
+    margin-top: 30px;
+     display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.protein-collection2-text{
+     background-color: rgb(209,209,170);
+    display: grid;
+    align-items: center;
+    place-items: center;
+    line-height: 1.5;
+    padding: 0 70px;
+    color: black;
+}
+.protein-collection2-text p{
+    font-size: 24px;
+}
+#protein-instruct{
+    margin: 30px 0;
+    display: grid;
+    place-items: center;
+    align-items: center;
+}
+.pro-tex{
+    align-items: center;
+    place-items: center;
+    width: 60%;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.line{
+    background-color: rgba(128, 128, 128, 0.397);
+    height: 1px;
+}
+.activities{
+    padding: 0 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    line-height: 2.5;
+}
+.activities p{
+    color: gray;
+    font-size: 18px;
+}
+.activities p:hover{
+    cursor: pointer;
+    color: black;
+}
+.activities span{
+    font-weight: 500;
+    font-size: 25px;
+    color: black;
+}

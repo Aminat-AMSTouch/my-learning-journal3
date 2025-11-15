@@ -8,10 +8,12 @@
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 40px;
 }
 .navlinks{
     display: flex;
+    align-items: center;
     gap: 30px;
 }
 .navlinks ul{
@@ -35,6 +37,7 @@ button{
     font-weight: 700;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      font-style: italic;
+     cursor: pointer;
      
 }
 .btn1{
@@ -290,4 +293,80 @@ button{
 .mes1 p{
     font-size: 20px;
     color: gray;
+}
+#section8{
+    padding: 100px 0;
+    background-color: #f3f4f6;
+    font-family: sans-serif;
+    display: grid;
+    place-items: center;
+    align-items: center;
+}
+.section8{
+    
+    /* place-items: center; */
+    /* align-items: center; */
+}
+.yoo{
+    position: relative;
+    margin-bottom: 30px;
+}
+.btnin{
+    background-color: rgb(55,73,146);
+    color: white;
+    position: absolute;
+    right: 300px;
+    bottom: 6px;
+    /* border: 1px solid gray; */
+}
+.btnte{
+    border: 1px solid gray;
+    padding-left: 300px;
+    background-color: white;
+    height: 80px;
+    border-radius: 35px;
+}
+.value{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.month{
+    padding: 40px;
+    margin-top: 50px;
+    align-items: center;
+    place-items: center;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.384);
+    border-radius: 10px;
+    line-height: 1.5;
+}
+.year{
+    /* padding: 40px; */
+    align-items: center;
+    place-items: center;
+    background-color: white;
+    border: 1px solid rgb(55,73,146);
+    border-radius: 10px;
+    line-height: 1.5;
+}
+.btnle{
+    background-color: rgb(225,29,72);
+    color: white;
+    padding: 20px 100px;
+}
+.value ul{
+    font-size: 23px;
+}
+.best{
+    background-color: rgb(55,73,146);
+    height: 20px;
+    padding: 20px 185px 10px 185px;
+    border-radius: 10px 10px 0 0px;
+    color: white;
+}
+.yearly{
+    padding: 40px;
+    align-items: center;
+    place-items: center;
 }
