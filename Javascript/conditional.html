@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let age = 18;
+        if (age >= 18){
+        console.log('You can sign up')
+            } else{
+                console.log('You must be at least 18')
+            }
+
+            let country = 'USA';
+            if(age >= 18 && country === 'USA'){
+                console.log('You can get a drivimg license.')
+            } else{
+                console.log('Go back home')
+            }
+
+            // if...else...if statement 
+
+            let month =7;
+            let monthName;
+
+            if (month == 1){
+                monthName = 'jan';
+            } else if(month == 2){
+                monthName = 'Feb';
+            } else if(month == 3){
+                monthName = 'mar';
+            } else if(month == 4){
+                monthName = 'April';
+            } else if(month == 5){
+                monthName = 'may';
+            } else if(month == 6){
+                monthName = 'june';
+            } else if(month == 7){
+                monthName = 'july';
+            } else if(month == 8){
+                monthName = 'aug';
+            } else if(month == 9){
+                monthName = 'sep';
+            }
+            console.log(monthName)
+
+            let weight = 70;
+            let height = 1.72;
+
+            let bmi = weight / (height * height);
+            let weightStatus;
+
+            if (bmi < 18.5){
+                weightStatus = 'Underweight';
+            } else if (bmi >= 18.5 && bmi <= 24.9){
+                weightStatus = 'Healthy Weight';
+            } else if(bmi >= 25 && bmi <= 29.9){
+                weightStatus = 'Overweight';
+            } else {
+                weightStatus = 'Obesity';
+            }
+
+            console.log(weightStatus);
+
+            // Even/ Odd Checker 
+            let number = 67;
+            if (number % 2 === 0){
+                console.log('Even number');
+            } else{
+                console.log('odd number');
+            }
+
+            //Grading System
+            let score = 67
+            let grade;
+
+            if (score >= 70){
+                grade ='Grade A'
+            } else if(score >=60){
+                grade ='Grade B'
+            } else if(score >=50){
+                grade = 'Grade C'
+            } else if(score >=45){
+                grade ='Grade D'
+            } else {
+                grade = 'Grade F'
+            }
+
+            console.log(grade);
+    </script>
+</body>
+</html>

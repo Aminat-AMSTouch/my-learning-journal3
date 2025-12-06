@@ -81,9 +81,9 @@ button:hover{
     color: white;
 }
 .protein-img{
-    display: grid;
-    align-items: center;
-    place-items: center;
+    /* display: grid; */
+    /* align-items: center; */
+    /* place-items: center; */
 }
 .protein-text p{
     font-size: 30px;
