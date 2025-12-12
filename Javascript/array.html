@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array </title>
+</head>
+<body>
+    
+    <script>
+        const items = [
+            { name: 'Bike', price: 100 },
+            { name: 'TV', price: 200 },
+            {name: 'Album', price: 10},
+            {name: 'Book', price: 5},
+            {name: 'Phone', price: 500},
+            {name: 'Computer', price: 1000},
+            {name: 'Keyboard', price: 25}
+        ]
+
+        // filter method 
+
+        const filteredItems = items.filter((item) => {
+            return item.price <= 100
+        })
+        console.log(filteredItems)
+
+        // find method 
+        const deee= items.find((item) =>{
+            return item.name === 'Bike'
+        })
+        console.log(deee)
+
+
+
+        // map method 
+        const itemNames = items.map((item) =>{
+            return item.name 
+        })
+        console.log(itemNames)
+
+        // forEach method 
+        items.forEach((item) =>{
+            console.log(item.price)
+        })
+
+        // some and every method 
+    const hasEpensivePrice = items.some((item) =>{
+        return item.price >= 200
+    })
+    console.log(hasEpensivePrice)
+
+    const hasEpensivePrice1 = items.every((item) =>{
+        return item.price >= 1000
+    })
+    console.log(hasEpensivePrice1)
+    
+
+    // reduce method 
+    const total = items.reduce((currentTotal, item) => {
+        return item.price + currentTotal
+    }, 2)
+    console.log(total)
+
+    // includes method 
+    const nums = [1, 2, 3, 4, 5]
+    const includesItem = nums.includes(5)
+    console.log(includesItem)
+// note: some, every, includes always have boolean output i.etrue or false
+    </script>
+</body>
+</html>
