@@ -66,7 +66,42 @@
     const nums = [1, 2, 3, 4, 5]
     const includesItem = nums.includes(5)
     console.log(includesItem)
-// note: some, every, includes always have boolean output i.etrue or false
-    </script>
+// note: some, every, includes always have boolean output i.e true or false
+
+
+// OBJECT 
+
+let person = {
+    firstName: 'john',
+    secondName: 'Mary'
+};
+    console.log(person.firstName)
+    console.log(person['secondName'])
+// object can accessed through dot notaton and array-like notation 
+
+
+// modifying the value of a property 
+// Assignment operator is used to change property in an object
+person.firstName = 'Ade'
+console.log(person)
+
+// adding a new property to an object 
+person.age = 25
+console.log(person)
+
+// deleting a property from an object 
+delete person.age
+console.log(person)
+
+// checking if a propert exist. thus will give boolean answer 
+
+let employee = {
+    firstName1: 'peter',
+    secondName2: 'paul',
+    employeeId: 4
+};
+console.log('height' in employee)
+console.log('employeeId' in employee)    
+</script>
 </body>
 </html>
