@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span title="hello" id="hi" data-test ="this is a test" data-longer-name="sodok" class="hi1 hi2">Hello</span>
+    <span id="bye">Bye</span>
+
+    <script>
+        const body = document.body
+        // body.append("Hello World", "Bye")
+
+        // const div = document.createElement('div')
+
+        // // div.innerText = 'Hello world'
+        // // div.textContent = '<strong>Hello World 2</strong>'
+        // div.innerHTML = '<strong>Hello World 2</strong>'
+        // body.append(div)
+
+        const div =document.querySelector("div")
+        const spanHi = document.querySelector("#hi")
+        const spanBye = document.querySelector("#bye")
+
+        // spanBye.remove()
+        // div.removeChild(spanBye)
+
+console.log(spanHi.getAttribute('id')
+)
+console.log(spanHi.removeAttribute('title'))
+console.log(spanHi.dataset)
+spanHi.classList.remove('hi1')
+spanHi.classList.toggle('hi3')
+spanHi.style.backgroundColor = "green"
+spanBye.style.color = 'orange'
+// nb: setAttribute is used to assign or resassign an element i.e id, class title etc.
+//getAttribute is used to get the name of a particular element i.e id, title or class
+//removeAttribute removes an attibute from an element
+        
+    </script>
+</body>
+</html>
